@@ -41,14 +41,14 @@ Exibição de métricas relacionadas aos chamados, como total de chamados e cham
 ### 1. Clone o repositório
 
 ```bash
-git clone https://github.com/seu-usuario/nome-do-repositorio.git
+git clone https://github.com/Schmxdt/backend-plss
 ```
 
 ### 2. Instalar dependências
 Navegue até o diretório do projeto e execute o comando para instalar as dependências:
 
 ```bash
-cd nome-do-repositorio
+cd backend-plss
 composer install
 ```
 
@@ -101,12 +101,22 @@ php artisan serve
 
 ## Instalação Front-end
 
-1 Rodar o comando para baixar as dependências
+1 Clonar repositório 
+```
+git clone https://github.com/Schmxdt/frontend-plss.git
+```
+
+2 Entrar na pasta 
+```
+cd frontend-plss
+```
+
+3 Rodar o comando para baixar as dependências
 ```
 yarn 
 ```
 
-2 Subir aplicação
+4 Subir aplicação
 
 ```
 yarn start
